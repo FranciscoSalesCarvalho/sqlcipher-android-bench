@@ -63,10 +63,22 @@ object DatabaseFactory {
         return builder.build()
     }
 
-    /** Converte 32 bytes no formato de chave bruta do SQLCipher: x'<64 hex>' */
+    /**
+     * Converte 32 bytes no formato de chave bruta do SQLCipher: x'<64 hex>'.
+     * Monta os bytes diretamente, sem criar uma String imutável com a chave.
+     */
     private fun rawKey(key: ByteArray): ByteArray {
         require(key.size == 32) { "Chave bruta precisa de 32 bytes, recebeu ${key.size}" }
-        val hex = key.joinToString("") { "%02x".format(it) }
-        return "x'$hex'".toByteArray(Charsets.US_ASCII)
+        val digits = "0123456789abcdef".toByteArray(Charsets.US_ASCII)
+        val out = ByteArray(67) // x ' + 64 dígitos hex + '
+        out[0] = 'x'.code.toByte()
+        out[1] = '\''.code.toByte()
+        out[66] = '\''.code.toByte()
+        for (i in key.indices) {
+            val b = key[i].toInt() and 0xff
+            out[2 + 2 * i] = digits[b ushr 4]
+            out[3 + 2 * i] = digits[b and 0x0f]
+        }
+        return out
     }
 }
