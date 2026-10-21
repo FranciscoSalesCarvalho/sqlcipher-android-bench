@@ -1,0 +1,17 @@
+--------- beginning of main
+10-18 16:50:16.636 15452 15464 I DiskStats: write4MiB[0] device=dm-65 sectors=8384 bytes=4292608 writes=31 flushes=0 discarded=0
+10-18 16:50:16.730 15452 15464 I DiskStats: write4MiB[1] device=dm-65 sectors=8384 bytes=4292608 writes=27 flushes=0 discarded=0
+10-18 16:50:16.881 15452 15464 I DiskStats: write4MiB[2] device=dm-65 sectors=8736 bytes=4472832 writes=60 flushes=0 discarded=0
+10-18 16:50:17.000 15452 15464 I DiskStats: write4MiB[3] device=dm-65 sectors=8392 bytes=4296704 writes=29 flushes=0 discarded=0
+10-18 16:50:17.154 15452 15464 I DiskStats: write4MiB[4] device=dm-65 sectors=8384 bytes=4292608 writes=30 flushes=0 discarded=0
+10-18 16:50:17.159 15452 15464 I DiskStats: dataDevice=dm-65
+10-18 16:50:19.339 15452 15464 I DiskStats: idle[0] 2s device=dm-65 sectors=2208 bytes=1130496 writes=129 flushes=0 discarded=32
+10-18 16:50:21.550 15452 15464 I DiskStats: idle[1] 2s device=dm-65 sectors=848 bytes=434176 writes=60 flushes=0 discarded=0
+10-18 16:50:23.768 15452 15464 I DiskStats: idle[2] 2s device=dm-65 sectors=120 bytes=61440 writes=15 flushes=0 discarded=0
+10-18 16:50:25.944 15452 15464 I DiskStats: idle[3] 2s device=dm-65 sectors=1040 bytes=532480 writes=54 flushes=0 discarded=0
+10-18 16:50:28.145 15452 15464 I DiskStats: idle[4] 2s device=dm-65 sectors=240 bytes=122880 writes=28 flushes=0 discarded=0
+10-18 16:50:30.375 15452 15464 I DiskStats: idle[5] 2s device=dm-65 sectors=576 bytes=294912 writes=40 flushes=0 discarded=0
+10-18 16:50:32.570 15452 15464 I DiskStats: idle[6] 2s device=dm-65 sectors=152 bytes=77824 writes=18 flushes=0 discarded=0
+10-18 16:50:34.757 15452 15464 I DiskStats: idle[7] 2s device=dm-65 sectors=0 bytes=0 writes=0 flushes=0 discarded=0
+10-18 16:50:36.955 15452 15464 I DiskStats: idle[8] 2s device=dm-65 sectors=336 bytes=172032 writes=34 flushes=0 discarded=0
+10-18 16:50:39.174 15452 15464 I DiskStats: idle[9] 2s device=dm-65 sectors=248 bytes=126976 writes=24 flushes=0 discarded=0

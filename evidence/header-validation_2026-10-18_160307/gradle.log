@@ -1,0 +1,74 @@
+Starting a Gradle Daemon (subsequent builds will be faster)
+Reusing configuration cache.
+> Task :storage:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :storage:preBuild UP-TO-DATE
+> Task :storage:generateDebugAssets UP-TO-DATE
+> Task :storage:preDebugBuild UP-TO-DATE
+> Task :storage:preDebugAndroidTestBuild UP-TO-DATE
+> Task :storage:mergeDebugAssets UP-TO-DATE
+> Task :storage:javaPreCompileDebugAndroidTest UP-TO-DATE
+> Task :storage:mapDebugAndroidTestSourceSetPaths UP-TO-DATE
+> Task :storage:writeDebugAarMetadata UP-TO-DATE
+> Task :storage:mapDebugSourceSetPaths UP-TO-DATE
+> Task :storage:generateDebugAndroidTestGlobalSynthetics UP-TO-DATE
+> Task :storage:generateDebugResources UP-TO-DATE
+> Task :storage:generateDebugAndroidTestResources UP-TO-DATE
+> Task :storage:extractDeepLinksDebug UP-TO-DATE
+> Task :storage:javaPreCompileDebug UP-TO-DATE
+> Task :storage:processDebugAndroidTestNavigationResources UP-TO-DATE
+> Task :storage:processDebugNavigationResources UP-TO-DATE
+> Task :storage:validateSigningDebugAndroidTest UP-TO-DATE
+> Task :storage:compileDebugAndroidTestNavigationResources UP-TO-DATE
+> Task :storage:mergeDebugJniLibFolders UP-TO-DATE
+> Task :storage:writeDebugAndroidTestSigningConfigVersions UP-TO-DATE
+> Task :storage:mergeDebugAndroidTestJniLibFolders UP-TO-DATE
+> Task :storage:processDebugManifest UP-TO-DATE
+> Task :storage:packageDebugAndroidTestResources UP-TO-DATE
+> Task :storage:packageDebugResources UP-TO-DATE
+> Task :storage:mergeDebugNativeLibs NO-SOURCE
+> Task :storage:compileDebugLibraryResources UP-TO-DATE
+> Task :storage:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :storage:parseDebugAndroidTestLocalResources UP-TO-DATE
+> Task :storage:generateDebugAndroidTestRFile UP-TO-DATE
+> Task :storage:parseDebugLocalResources UP-TO-DATE
+> Task :storage:checkDebugAndroidTestDuplicateClasses UP-TO-DATE
+> Task :storage:generateDebugRFile UP-TO-DATE
+> Task :storage:desugarDebugAndroidTestFileDependencies UP-TO-DATE
+> Task :storage:mergeDebugAndroidTestAssets UP-TO-DATE
+> Task :storage:compressDebugAndroidTestAssets UP-TO-DATE
+> Task :storage:checkDebugAndroidTestAarMetadata UP-TO-DATE
+> Task :storage:mergeDebugAndroidTestNativeLibs UP-TO-DATE
+> Task :storage:stripDebugAndroidTestDebugSymbols UP-TO-DATE
+> Task :storage:mergeDebugAndroidTestResources UP-TO-DATE
+> Task :storage:mergeExtDexDebugAndroidTest UP-TO-DATE
+> Task :storage:mergeDebugAndroidTestManifest UP-TO-DATE
+> Task :storage:processDebugAndroidTestManifest UP-TO-DATE
+> Task :storage:kspDebugKotlin UP-TO-DATE
+> Task :storage:compileDebugKotlin UP-TO-DATE
+> Task :storage:compileDebugJavaWithJavac NO-SOURCE
+> Task :storage:processDebugJavaRes UP-TO-DATE
+> Task :storage:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :storage:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :storage:mergeLibDexDebugAndroidTest UP-TO-DATE
+> Task :storage:kspDebugAndroidTestKotlin UP-TO-DATE
+> Task :storage:compileDebugAndroidTestKotlin UP-TO-DATE
+> Task :storage:compileDebugAndroidTestJavaWithJavac NO-SOURCE
+> Task :storage:processDebugAndroidTestJavaRes UP-TO-DATE
+> Task :storage:mergeDebugAndroidTestJavaResource UP-TO-DATE
+> Task :storage:processDebugAndroidTestResources UP-TO-DATE
+> Task :storage:dexBuilderDebugAndroidTest UP-TO-DATE
+> Task :storage:mergeProjectDexDebugAndroidTest UP-TO-DATE
+> Task :storage:packageDebugAndroidTest UP-TO-DATE
+> Task :storage:createDebugAndroidTestApkListingFileRedirect UP-TO-DATE
+
+> Task :storage:connectedDebugAndroidTest
+Running tests on devices: Medium_Phone_API_36.0(AVD) - 16
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.google.protobuf.UnsafeUtil$MemoryAccessor (file:~/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.25.5/5ae5c9ec39930ae9b5a61b32b93288818ec05ec1/protobuf-java-3.25.5.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release
+
+BUILD SUCCESSFUL in 8s
+53 actionable tasks: 1 executed, 52 up-to-date
+Configuration cache entry reused.

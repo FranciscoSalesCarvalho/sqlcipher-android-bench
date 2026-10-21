@@ -1,0 +1,4 @@
+--------- beginning of main
+10-18 17:10:45.396 22218 22232 I S2      : PRAGMA A_FRAMEWORK PRAGMA journal_mode=truncate | PRAGMA synchronous=2 | PRAGMA page_size=4096 | PRAGMA cipher_version=3.3.1 | PRAGMA cipher_page_size=(vazio) | SELECT sqlite_version()=3.44.5
+10-18 17:10:45.407 22218 22232 I S2      : PRAGMA B_SQLCIPHER_PLAIN PRAGMA journal_mode=truncate | PRAGMA synchronous=2 | PRAGMA page_size=4096 | PRAGMA cipher_version=4.18.0 community | PRAGMA cipher_page_size=(vazio) | SELECT sqlite_version()=3.53.4
+10-18 17:10:45.913 22218 22232 I S2      : PRAGMA C_SQLCIPHER_KEYED PRAGMA journal_mode=truncate | PRAGMA synchronous=2 | PRAGMA page_size=4096 | PRAGMA cipher_version=4.18.0 community | PRAGMA cipher_page_size=4096 | SELECT sqlite_version()=3.53.4

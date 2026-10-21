@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="5" failures="0" errors="0" skipped="0" time="0.000" timestamp="2026-10-18T16:54:02" hostname="localhost">
+  <testsuite name="dev.fsales.storage.ExampleInstrumentedTest" tests="1" failures="0" errors="0" skipped="0" time="0.001" timestamp="2026-10-18T16:54:02" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="useAppContext" classname="dev.fsales.storage.ExampleInstrumentedTest" time="0.001" />
+  </testsuite>
+  <testsuite name="dev.fsales.storage.HeaderValidationTest" tests="4" failures="0" errors="0" skipped="0" time="0.306" timestamp="2026-10-18T16:54:02" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="armC_isEncrypted" classname="dev.fsales.storage.HeaderValidationTest" time="0.285" />
+    <testcase name="armB_isPlaintext" classname="dev.fsales.storage.HeaderValidationTest" time="0.005" />
+    <testcase name="armA_isPlaintext" classname="dev.fsales.storage.HeaderValidationTest" time="0.011" />
+    <testcase name="armB_isReadableByFrameworkSqlite" classname="dev.fsales.storage.HeaderValidationTest" time="0.005" />
+  </testsuite>
+</testsuites>
